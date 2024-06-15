@@ -1,0 +1,1 @@
+This project is for reading metadata from MP3 files in C++ to create playlists 
