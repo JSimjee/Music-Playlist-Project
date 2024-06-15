@@ -8,7 +8,7 @@
 using namespace std;
 
 int main() {
-  // This is not a char pointer nor a char array like in struct ID3V1, it's a string pointer
+  // This is a constant char pointer that points to an array of chars. "mp3" can also be read as a string
   const char *mp3 = "/Sample Music Files/80. Space Junk Galaxy.mp3";
   
   // Is this O_RDONLY literally just a 0 value? 
