@@ -5,6 +5,10 @@
 
 #include "ID3V1.h"
 
+// A significant amount of this code is from my CS 010C professor Pat Miller. 
+// I greatly appreciate the time he spent writing this code for me, and for
+// being open to helping me with this or other projects.
+
 using namespace std;
 
 int main() {
@@ -17,7 +21,10 @@ int main() {
   cout << f << ' ' << sizeof(ID3v1) << endl;
 
   ID3v1 header;
+
   int n = ::read(f,&header,128);
+
+
   cout << n << endl;
   cout << header.tag() << endl;
   
