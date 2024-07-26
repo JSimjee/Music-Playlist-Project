@@ -6,8 +6,6 @@
 #include "ID3V1.h"
 
 // A significant amount of this code is from my CS 010C professor Pat Miller. 
-// I greatly appreciate the time he spent writing this code for me, and for
-// being open to helping me with this or other projects.
 
 using namespace std;
 
